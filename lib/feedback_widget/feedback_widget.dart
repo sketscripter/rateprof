@@ -1,20 +1,9 @@
-/*
-*  feedback_widget.dart
-*  App_prototype
-*
-*  Created by Supernova.
-*  Copyright © 2018 Supernova. All rights reserved.
-    */
-
 import 'package:app_prototype/values/values.dart';
 import 'package:flutter/material.dart';
 
-
 class FeedbackWidget extends StatelessWidget {
-  
   @override
   Widget build(BuildContext context) {
-  
     return Scaffold(
       body: Container(
         constraints: BoxConstraints.expand(),

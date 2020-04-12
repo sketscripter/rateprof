@@ -1,20 +1,9 @@
-/*
-*  home_widget.dart
-*  App_prototype
-*
-*  Created by Supernova.
-*  Copyright © 2018 Supernova. All rights reserved.
-    */
-
 import 'package:app_prototype/values/values.dart';
 import 'package:flutter/material.dart';
 
-
 class HomeWidget extends StatelessWidget {
-  
   @override
   Widget build(BuildContext context) {
-  
     return Scaffold(
       body: Container(
         constraints: BoxConstraints.expand(),
@@ -449,7 +438,8 @@ class HomeWidget extends StatelessWidget {
                                   height: 50,
                                   margin: EdgeInsets.only(top: 22),
                                   child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.stretch,
                                     children: [
                                       Text(
                                         "Nom de la matiere",
@@ -508,7 +498,8 @@ class HomeWidget extends StatelessWidget {
                                   height: 51,
                                   margin: EdgeInsets.only(top: 22),
                                   child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.stretch,
                                     children: [
                                       Text(
                                         "Nom de la matiere",
@@ -567,7 +558,8 @@ class HomeWidget extends StatelessWidget {
                                   height: 50,
                                   margin: EdgeInsets.only(top: 22),
                                   child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.stretch,
                                     children: [
                                       Text(
                                         "Nom de la matiere",
@@ -626,7 +618,8 @@ class HomeWidget extends StatelessWidget {
                                   height: 51,
                                   margin: EdgeInsets.only(top: 22),
                                   child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.stretch,
                                     children: [
                                       Text(
                                         "Nom de la matiere",
@@ -686,7 +679,8 @@ class HomeWidget extends StatelessWidget {
                                   height: 50,
                                   margin: EdgeInsets.only(top: 22),
                                   child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.stretch,
                                     children: [
                                       Text(
                                         "Nom de la matiere",
@@ -744,7 +738,8 @@ class HomeWidget extends StatelessWidget {
                                   height: 51,
                                   margin: EdgeInsets.only(top: 22),
                                   child: Column(
-                                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.stretch,
                                     children: [
                                       Text(
                                         "Nom de la matiere",

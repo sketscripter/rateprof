@@ -1,11 +1,3 @@
-/*
-*  sign_up_widget.dart
-*  App_prototype
-*
-*  Created by Supernova.
-*  Copyright © 2018 Supernova. All rights reserved.
-    */
-
 import 'package:app_prototype/values/values.dart';
 import 'package:flutter/material.dart';
 
