@@ -92,6 +92,12 @@
       "languageVersion": "1.12"
     },
     {
+      "name": "passwordfield",
+      "rootUri": "file:///Users/sohaibtoulout/desktop/flutter/.pub-cache/hosted/pub.dartlang.org/passwordfield-0.0.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.1"
+    },
+    {
       "name": "path",
       "rootUri": "file:///Users/sohaibtoulout/desktop/flutter/.pub-cache/hosted/pub.dartlang.org/path-1.6.4",
       "packageUri": "lib/",
@@ -182,7 +188,7 @@
       "languageVersion": "2.0"
     }
   ],
-  "generated": "2020-04-12T19:28:27.365176Z",
+  "generated": "2020-04-14T17:24:41.659524Z",
   "generator": "pub",
   "generatorVersion": "2.7.0"
 }
