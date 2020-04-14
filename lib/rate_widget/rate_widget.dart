@@ -65,7 +65,7 @@ class RateWidget extends StatelessWidget {
                             Positioned(
                               top: 26,
                               child: Text(
-                                "Nom professeur",
+                                "Nom professeur: ",
                                 textAlign: TextAlign.center,
                                 style: TextStyle(
                                   color: AppColors.primaryText,
@@ -81,7 +81,7 @@ class RateWidget extends StatelessWidget {
                     ],
                   ),
                 ),
-              ])
+              ]),
             ]),
             Text(
               'Evaluez les professeurs en deplacant la jauge entre 1 et 5',
@@ -123,7 +123,7 @@ class RateWidget extends StatelessWidget {
                                     textAlign: TextAlign.center,
                                   )),
                                 ),
-                                Expanded(child: Slices()),
+                                Expanded(child: Star()),
                               ],
                             ),
                           );
@@ -137,6 +137,13 @@ class RateWidget extends StatelessWidget {
           color: Color.fromARGB(255, 255, 255, 255),
         ),
       )),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Navigator.pushNamed(context, '/home');
+        },
+        backgroundColor: AppColors.secondaryBackground,
+        child: Icon(Icons.check),
+      ),
     );
   }
 }

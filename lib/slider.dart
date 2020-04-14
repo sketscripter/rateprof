@@ -85,3 +85,33 @@ class _SlicesState extends State<Slices> {
     ));
   }
 }
+
+class Star extends StatefulWidget {
+  @override
+  _StarState createState() => _StarState();
+}
+
+class _StarState extends State<Star> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      body: Center(
+        child: RatingBar(
+          initialRating: 3,
+          minRating: 1,
+          direction: Axis.horizontal,
+          allowHalfRating: false,
+          itemCount: 5,
+          itemPadding: EdgeInsets.symmetric(horizontal: 4.0),
+          itemBuilder: (context, _) => Icon(
+            Icons.star,
+            color: AppColors.secondaryBackground,
+          ),
+          onRatingUpdate: (rating) {
+            print(rating);
+          },
+        ),
+      ),
+    );
+  }
+}

@@ -1,4 +1,4 @@
-#Sun Apr 12 17:04:19 WET 2020
+#Mon Apr 13 14:23:25 WET 2020
 base.0=/Users/sohaibtoulout/Desktop/uicproj/app_prototype/build/app/intermediates/transforms/dexMerger/debug/0
 path.0=classes.dex
 renamed.0=classes.dex
