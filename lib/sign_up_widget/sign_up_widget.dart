@@ -32,7 +32,6 @@ class SignUpWidget extends StatelessWidget {
                     height: 1.21053,
                   ),
                 ),
-                SizedBox(height: 25.0),
                 Stack(
                   children: <Widget>[
                     Padding(
@@ -50,7 +49,7 @@ class SignUpWidget extends StatelessWidget {
                             borderSide: BorderSide(
                                 width: 0.5, color: Colors.green[300])),
                         errorMessage:
-                            'must contain special character either . * @ # \$',
+                            'doit contenir un caractère spécial . * @ # \$',
                       ),
                     ),
                   ],
